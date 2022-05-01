@@ -1,0 +1,38 @@
+.player-body {
+    color: white;
+    width: 30vw;
+    height: 75vh;
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0px 4px 65px 22px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+}
+
+.music-poster {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.action-button-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+.action-button-body img{
+    cursor: pointer;
+}
+.SHUFFLE, .REPEAT {
+    height: 20px;
+}
+
+.FORWARD, .BACKWARD {
+    height: 30px;
+}
+
+.transcript-section {
+    background-color: grey;
+    height: 30vh;
+    margin: 0 2rem;
+    border-radius: 10px;
+}
