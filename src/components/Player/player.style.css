@@ -55,6 +55,7 @@
     /* overflow: hidden; */
     overflow-x: hidden;
     overflow-y: scroll;
+    line-height: 10px;
 }
 
 .music-desp {
@@ -75,4 +76,3 @@
     justify-content: center;
     padding: 1rem 0;
 }
-
