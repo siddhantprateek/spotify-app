@@ -1,15 +1,27 @@
 .player-body {
     color: white;
-    width: 30vw;
-    height: 75vh;
     background-color: rgb(24, 24, 24);
     box-shadow: 0px 4px 65px 22px rgba(0, 0, 0, 0.35);
     border-radius: 10px;
-    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    width: 50vw;
 }
 
+.bg-overlay {
+    position: relative;
+    height: 40rem;
+    border-radius: 10px;
+    z-index: 0;
+    background: linear-gradient(180deg, #0d688fe1 0%, rgba(81, 81, 81, 0) 100%);;
+}
+.player-contents {
+    padding: 2rem 2rem;
+    position: relative;
+    z-index: 2;
+    margin-top: -40rem;
+}
 .music-poster {
-    width: 25vw;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -33,6 +45,34 @@
 .transcript-section {
     background-color: grey;
     height: 30vh;
-    margin: 0 2rem;
     border-radius: 10px;
+    padding: 2rem;
 }
+
+.transcript-body {
+    height: 29vh;
+    font-size: 1.2rem;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.music-desp {
+    line-height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-body hr {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.upload-file-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
