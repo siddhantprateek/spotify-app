@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./player.style.css";
 import { PLAY, BACKWARD, FORWARD, REPEAT, SHUFFLE } from "../../assets";
 
 const Player = () => {
-  const [lyrics, setLyrics] = useState([""]);
+  const lyrics = [""];
   const data = `
   [00:00.00]by RentAnAdviser.com
   [00:00.00]
