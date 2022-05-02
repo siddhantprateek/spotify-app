@@ -118,14 +118,14 @@ const Player = () => {
           <img className="FORWARD" src={FORWARD} alt="" />
           <img className="REPEAT" src={REPEAT} alt="" />
         </div>
-        <div className="upload-file-section">
+        <form className="upload-file-section">
           <input className="choose-file" type="file" />
-        </div>
+        </form>
         <div className="transcript-section">
           <p className="transcript-body">
             {lyrics.map(line => (
               <>
-                <p>{line}</p>
+                <p className="lyrics-line">{line}</p>
               </>
             ))}
           </p>
