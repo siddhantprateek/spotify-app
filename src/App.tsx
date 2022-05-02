@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Spotify Transcript App</h1>
+      <h1 className='header'>Spotify Transcript App</h1>
       <div className="player-container">
         <Player />
       </div>
